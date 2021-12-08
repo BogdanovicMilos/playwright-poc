@@ -1,0 +1,8 @@
+asyncio==3.4.3
+greenlet==1.1.2
+numpy==1.21.4
+playwright==1.17.2
+prettytable==2.4.0
+pyee==8.2.2
+wcwidth==0.2.5
+websockets==10.1

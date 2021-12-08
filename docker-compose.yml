@@ -1,0 +1,9 @@
+version: '3'
+
+services: 
+  scraper:
+    build: .
+    command: sh -c 'cd ./app/ && exec python scrape.py'
+    environment:
+      SCRAPER_SOURCE: ${SCRAPER_SOURCE}
+
